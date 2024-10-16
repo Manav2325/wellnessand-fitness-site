@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum - Q&A</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #4b4a4a; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+      
+        header {
+            width: 100%;
+            background-color: #000000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+
+       
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #ffcc00; 
+        }
+
+        
+        section {
+            padding: 40px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+       
+        .qa-box {
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .qa-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .qa-box p {
+            font-size: 1rem;
+            color: #666666;
+        }
+
+        
+        .ask-question {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+           
+           }
+
+        .ask-question textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #1a0d0d;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .ask-question button {
+            padding: 10px 20px;
+            background-color: #0a0606;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .ask-question button:hover {
+            background-color: #000000; 
+        }
+
+        button.back-home {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 30px;
+        }
+
+        button.back-home:hover {
+            background-color: #000000;
+        }
+
+       
+        footer {
+            width: 100%;
+            background-color: #000000;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Community Forum</h1>
+        <nav>
+            <a href="fitness and wellness.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="introduction.html">Introduction</a> |
+            <a href="Community Forum.html">Community forum</a> |
+            <a href="prices.html">Prices</a> |
+            <a href="services.html">Services</a> |
+            <a href="trainers.html">Trainers</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="help.html">Help</a> |
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Q&A Section</h2>
+        <p>Ask questions and get answers from our community members.</p>
+
+     
+        <div class="qa-box">
+            <h3>Question: How do I start with strength training?</h3>
+            <p>Answer: Start with light weights and focus on proper form. Gradually increase weight as you build strength. A certified trainer can guide you to prevent injuries.</p>
+        </div>
+
+        <div class="qa-box">
+            <h3>Question: What's a good meal plan for building muscle?</h3>
+            <p>Answer: Focus on high-protein foods like chicken, fish, eggs, and legumes. Pair them with complex carbs like brown rice and vegetables to fuel your workouts and recovery.</p>
+        </div>
+
+        <div class="ask-question">
+            <h3>Ask a Question</h3>
+            <textarea placeholder="Type your question here..."></textarea>
+            <button>Submit Question</button>
+        </div>
+    </section>
+
+    <button class="back-home" onclick="window.location.href='fitness and wellness.html';">Back to Home</button>
+
+    <footer>
+        <p>© 2024 Fitness & Wellness. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
